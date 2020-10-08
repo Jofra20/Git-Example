@@ -1,0 +1,21 @@
+git init = para inicializar un nuevo proyecto
+git status = para ver el estado de nuestros archivos
+git add <nombre archivo> = para agregar un archivo al staging area
+git add . = para agregar todos los archivos al staging area
+git commit = para crear un primer punto de control de nuestro codigo
+git commit -m "Mensaje en el commit" = para crear un commit y evitar entrar en el vim
+
+git config --global user.email "email" = para configurar el email de este usuario
+git config --global user.name "name" = para configurar el nombre de este usuario
+
+git log = para ver todos los commits que hemos creado
+git checkout -- nombre archivo = para revertir los cambios de los archivos
+git diff = para ver las diferencias hechas en los archivos
+
+.gitignore, en este archivo se agregan los archivos y carpetas para que sean ignorados
+git branch = muestra las branch actuales
+git branch Nombre a llamar a la nueva version = agregar una branch
+git checkout nombre a cambiar = para cambiar de branch
+git remote add origin link del repositorio = para agregar un repositorio a github
+git push -u origin master = para subir el codigo
+git clone direccion a clonar = para descargar el codigo de un proyecto a nuestro pc
